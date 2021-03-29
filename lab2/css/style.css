@@ -1,0 +1,181 @@
+@font-face
+{
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    position:relative;
+    font-family: "MyriadProRegular";
+    font-size: 18px;
+}
+.name
+{
+    text-align: left;
+}
+.name a
+{
+    width: 100%;
+    line-height: 180px;
+    font-family: inherit;
+    font-size: 80px;
+    text-decoration: none;
+    color:#333;
+}
+.name a span
+{
+    color: #4bcaff; 
+}
+.top-nav
+{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: #35444f;
+    font-family: inherit;
+    text-align: center;
+}
+.top-nav ul
+{
+    display: inline-block;
+}
+.top-nav ul li
+{
+    float: left;
+    margin: 0 auto;
+    padding: 20px 42px;
+    transition: 0.60s;
+}
+.top-nav ul li:hover
+{
+    background-color: #222f3a;
+    border: 0.5px solid white;
+}
+.top-nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.left-nav
+{
+    max-width: 340px;
+    width: 100%;
+    margin: 50px 49px 0 0;
+    display: inline-block;
+    border: 0.5px solid #46545d;
+}
+.left-nav ul li
+{
+    float: top;
+    margin: 0;
+    padding: 25px 0 25px 42px;
+    transition: 0.5s;
+}
+.left-nav ul li:hover
+{
+    background-color: #dbdbdb;
+    padding: 25px 0 25px 70px;
+}
+.left-nav ul li a
+{
+    text-decoration: none;
+    color: #46545d;
+    font-size: 28px;
+}
+.image
+{
+    margin: 50px 0px 0 0;
+    vertical-align: top;
+    display: inline-block;
+    width: 882px;
+    height: 530px;
+    border: 1px solid #100;
+}
+.scale 
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border: 1px #fff;
+}
+.scale:hover
+{
+    transform: scale(1.2);
+}
+.main-text
+{
+    width: 100%;
+    max-width: 885px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: inherit;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.main-text p
+{
+    padding: 0 35px 35px 35px;
+}
+.bottom-nav
+{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 70px;
+    background-color: #b4b7ba;
+    position: relative;
+    font-family: inherit;
+    text-align: left;
+    padding: 0 35px;
+}
+.bottom-nav ul
+{
+    display: inline-block;
+}
+.bottom-nav ul li
+{
+    float: left;
+    margin: 0 0;
+    line-height: 70px;
+    padding: 0 0 0 25px;
+}
+.bottom-nav ul li a:hover
+{
+    text-decoration: underline;
+    color: #3181a6;
+}
+.bottom-nav a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    transition: 0.5s;
+}
+.copy 
+{
+    line-height: 70px;
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+    float: right;
+    transition: 0.5s;
+}
+.copy:hover
+{
+    text-decoration: underline;
+    color: #3181a6;
+}
