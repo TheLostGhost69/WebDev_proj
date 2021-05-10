@@ -1,0 +1,317 @@
+@font-face
+{
+    font-family: 'Arimo';
+
+    src: url('../fonts/regular/Arimo-Regular.eot');
+
+    src: url('../fonts/regular/Arimo-Regular.eot?iefix') format('eot'),
+
+    url('../fonts/regular/Arimo-Regular.woff') format('woff'),
+
+    url('../fonts/regular/Arimo-Regular.ttf') format('truetype'),
+
+    url('../fonts/regular/Arimo-Regular.svg#webfont') format('svg');
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Arimo';
+
+    src: url('../fonts/bold/Arimo-bold.eot');
+
+    src: url('../fonts/bold/Arimo-bold.eot?iefix') format('eot'),
+
+    url('../fonts/bold/Arimo-bold.woff') format('woff'),
+
+    url('../fonts/bold/Arimo-bold.ttf') format('truetype'),
+
+    url('../fonts/bold') format('svg');
+
+    font-weight: 600;
+
+    font-style: normal;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arimo';
+    font-weight: 400;
+    background-color: #3a4965;
+}
+.conteiner
+{
+    height: 1192px;
+    position: relative;
+}
+.grid{
+    width: 1142px;
+    margin: 24px auto;
+    display: grid;
+    grid-template-columns: 308px repeat(3, 278px);
+    grid-template-rows: 70px 86px repeat(6, 70px) 110px;
+}
+.grid div
+{
+    background-color: bisque;
+}
+/*Ряд 1*/
+.grid div:nth-child(1)
+{
+    grid-row: 1 / 3;
+    background-color: #fafafa;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.grid div:nth-child(1) span
+{
+    font-size: 30px;
+}
+
+.grid div:nth-child(2)
+{
+    background-color: #89c331;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fdedee;
+}
+
+.grid div:nth-child(3)
+{
+    background-color: #f04a56;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fdedee;
+}
+
+.grid div:nth-child(4)
+{
+    background-color: #20807c;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fdedee;
+}
+
+/*Ряд 2*/
+
+.grid div:nth-child(5) .price, .grid div:nth-child(6) .price, .grid div:nth-child(7) .price
+{
+    float: left;
+    font-size: 60px;
+    line-height: 85px;
+    height: 85px;
+    padding: 0;
+    width: 130px;
+    text-align: right;
+    font-weight: 600;
+}
+.grid div:nth-child(5) .priceText, .grid div:nth-child(6) .priceText, .grid div:nth-child(7) .priceText
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 85px;
+    width: 148px;
+    padding: 0;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #484848;
+}
+.grid div:nth-child(5) .priceText span, .grid div:nth-child(6) .priceText span, .grid div:nth-child(7) .priceText span
+{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.grid div:nth-child(5), .grid div:nth-child(6), .grid div:nth-child(7)
+{
+    background-color: #fafafa;
+    color: #484848;
+}
+
+/*Ряд 3*/
+
+.grid div:nth-child(8), .grid div:nth-child(12), .grid div:nth-child(15), .grid div:nth-child(19), .grid div:nth-child(21), .grid div:nth-child(25)
+{
+    text-align: center;
+    line-height: 70px;
+    color: #484848;
+}
+
+.grid div:nth-child(8), .grid div:nth-child(9), .grid div:nth-child(10), .grid div:nth-child(11)
+{
+    background-color: #f2f2f2;
+}
+
+/*Ряд 4*/
+
+.grid div:nth-child(12), .grid div:nth-child(13), .grid div:nth-child(14)
+{
+    background-color: #e3e3e3;
+}
+
+.grid div:nth-child(13)
+{
+    grid-column: 2 / 4;
+}
+
+/*Ряд 5*/
+
+.grid div:nth-child(15), .grid div:nth-child(16), .grid div:nth-child(17), .grid div:nth-child(18)
+{
+    background-color: #f2f2f2;
+}
+
+/*Ряд 6*/
+
+.grid div:nth-child(20)
+{
+    grid-column: 2 / -1;
+}
+
+.grid div:nth-child(19), .grid div:nth-child(20)
+{
+    background-color: #e3e3e3;
+}
+
+/*Ряд 7*/
+
+.grid div:nth-child(21), .grid div:nth-child(22), .grid div:nth-child(23), .grid div:nth-child(24)
+{
+    background-color: #f2f2f2;
+}
+
+/*Ряд 8*/
+
+.grid div:nth-child(25), .grid div:nth-child(26), .grid div:nth-child(27), .grid div:nth-child(28)
+{
+    background-color: #e3e3e3;
+}
+
+/*Ряд 9*/
+
+.grid div:nth-child(29)
+{
+    background-color: #dddddd;
+    text-align: center;
+}
+.grid div:nth-child(29) div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px;
+    width: 308px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+.grid div:nth-child(29) button
+{
+    width: 192px;
+    height: 50px;
+    background-color: #484848;
+    border: none;
+    color: #eeeeee;
+    border-radius: 5px;
+    box-shadow: inset 0px -7px #404040;
+    font-size: 16px;
+}
+.grid div:nth-child(30)
+{
+    background-color: #eeeeee;
+    text-align: center;
+}
+.grid div:nth-child(30) div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px;
+    width: 308px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+.grid div:nth-child(30) button
+{
+    width: 192px;
+    height: 50px;
+    background-color: #89c331;
+    border: none;
+    color: #eeeeee;
+    border-radius: 5px;
+    box-shadow: inset 0px -7px #79b027;
+    font-size: 16px;
+}
+.grid div:nth-child(31)
+{
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.grid div:nth-child(31) div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px;
+    width: 308px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+.grid div:nth-child(31) button
+{
+    width: 192px;
+    height: 50px;
+    background-color: #f04a56;
+    border: none;
+    color: #eeeeee;
+    border-radius: 5px;
+    box-shadow: inset 0px -7px #df3a46;
+    font-size: 16px;
+}
+.grid div:nth-child(32)
+{
+    background-color: #eeeeee;
+    text-align: center;
+}
+.grid div:nth-child(32) div
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px;
+    width: 308px;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+}
+.grid div:nth-child(32) button
+{
+    width: 192px;
+    height: 50px;
+    background-color: #20807c;
+    border: none;
+    color: #eeeeee;
+    border-radius: 5px;
+    box-shadow: inset 0px -7px #16736f;
+    font-size: 16px;
+}
+/*Ячейки з даними*/
+.grid div:nth-child(9), .grid div:nth-child(10), .grid div:nth-child(11), .grid div:nth-child(13), .grid div:nth-child(14),
+.grid div:nth-child(16), .grid div:nth-child(17), .grid div:nth-child(18), .grid div:nth-child(20), .grid div:nth-child(22),
+.grid div:nth-child(23), .grid div:nth-child(24), .grid div:nth-child(26), .grid div:nth-child(27), .grid div:nth-child(28)
+{
+    text-align: center;
+    line-height: 70px;
+    color: #484848;
+}
